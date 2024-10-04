@@ -1,0 +1,60 @@
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.App {
+    background-color: var(--background-color);
+}
+
+.container {
+    margin-top: 16px;
+    gap: 18px;
+    background-color: var(--foreground-color);
+    padding: 8px 16px 8px 16px;
+    align-self: center;
+    border-radius: 12px;
+    columns: 248px;
+
+}
+
+.orchid-card {
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 0;
+    display: block;
+    transition: 0.4s;
+}
+
+.container img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.orchid-card:hover {
+    transform: scale(103%);
+}
+
+.corner-mark {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background: var(--special);
+    border-radius: 0 4px 0 32px;
+}
+
+.corner-mark .S {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.special {
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+}

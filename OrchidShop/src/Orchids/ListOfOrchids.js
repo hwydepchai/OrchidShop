@@ -1,0 +1,178 @@
+import pic02 from "./images/2.webp";
+import pic03 from "./images/3.webp";
+import pic04 from "./images/4.webp";
+import pic05 from "./images/5.webp";
+import pic06 from "./images/6.webp";
+import pic07 from "./images/7.webp";
+import pic08 from "./images/8.webp";
+import pic09 from "./images/9.webp";
+import pic10 from "./images/10.webp";
+import pic11 from "./images/11.webp";
+import pic12 from "./images/12.webp";
+import pic13 from "./images/13.webp";
+import pic14 from "./images/14.webp";
+import pic15 from "./images/15.webp";
+import pic16 from "./images/16.jpg";
+
+export const orchids = [
+  {
+    id: "1",
+    name: "Taichung beauty",
+    rating: 5,
+    isSpecial: true,
+    image: "https://barritaorchids.com/cdn/shop/products/Cf592_1024x1024.jpg",
+    color: "pink",
+    origin: "Taiwan",
+    category: "Cattleya",
+  },
+  {
+    id: "2",
+    name: "Phalaenopsis amabilis",
+    rating: 4,
+    isSpecial: false,
+    image: pic02,
+    color: "white",
+    origin: "Indonesia",
+    category: "Phalaenopsis",
+  },
+  {
+    id: "3",
+    name: "Vanda coerulea",
+    rating: 5,
+    isSpecial: true,
+    image: pic03,
+    color: "violet",
+    origin: "India",
+    category: "Vanda",
+  },
+  {
+    id: "4",
+    name: "Cattleya maxima",
+    rating: 3,
+    isSpecial: false,
+    image: pic04,
+    color: "purple",
+    origin: "Ecuador",
+    category: "Cattleya",
+  },
+  {
+    id: "5",
+    name: "Oncidium flexuosum",
+    rating: 4,
+    isSpecial: false,
+    image: pic06,
+    color: "yellow",
+    origin: "Brazil",
+    category: "Oncidium",
+  },
+  {
+    id: "6",
+    name: "Dendrobium nobile",
+    rating: 4,
+    isSpecial: false,
+    image: pic05,
+    color: "white with purple edges",
+    origin: "Himalayas",
+    category: "Dendrobium",
+  },
+  {
+    id: "7",
+    name: "Cymbidium goeringii",
+    rating: 5,
+    isSpecial: true,
+    image: pic07,
+    color: "green",
+    origin: "China",
+    category: "Cymbidium",
+  },
+  {
+    id: "8",
+    name: "Miltoniopsis roezlii",
+    rating: 3,
+    isSpecial: false,
+    image: pic08,
+    color: "pink",
+    origin: "Colombia",
+    category: "Miltoniopsis",
+  },
+  {
+    id: "9",
+    name: "Paphiopedilum sukhakulii",
+    rating: 4,
+    isSpecial: true,
+    image: pic09,
+    color: "green with brown stripes",
+    origin: "Thailand",
+    category: "Paphiopedilum",
+  },
+  {
+    id: "10",
+    name: "Masdevallia veitchiana",
+    rating: 5,
+    isSpecial: true,
+    image: pic10,
+    color: "red",
+    origin: "Peru",
+    category: "Masdevallia",
+  },
+  {
+    id: "11",
+    name: "Bulbophyllum echinolabium",
+    rating: 3,
+    isSpecial: false,
+    image: pic11,
+    color: "yellow with red spots",
+    origin: "Sulawesi",
+    category: "Bulbophyllum",
+  },
+  {
+    id: "12",
+    name: "Angraecum sesquipedale",
+    rating: 5,
+    isSpecial: true,
+    image: pic12,
+    color: "white",
+    origin: "Madagascar",
+    category: "Angraecum",
+  },
+  {
+    id: "13",
+    name: "Coelogyne cristata",
+    rating: 4,
+    isSpecial: false,
+    image: pic13,
+    color: "white",
+    origin: "Himalayas",
+    category: "Coelogyne",
+  },
+  {
+    id: "14",
+    name: "Lycaste skinneri",
+    rating: 5,
+    isSpecial: true,
+    image: pic14,
+    color: "pink",
+    origin: "Guatemala",
+    category: "Lycaste",
+  },
+  {
+    id: "15",
+    name: "Stanhopea tigrina",
+    rating: 4,
+    isSpecial: true,
+    image: pic15,
+    color: "yellow with brown spots",
+    origin: "Mexico",
+    category: "Stanhopea",
+  },
+  {
+    id: "16",
+    name: "Zygopetalum mackayi",
+    rating: 3,
+    isSpecial: false,
+    image: pic16,
+    color: "green with purple",
+    origin: "Brazil",
+    category: "Zygopetalum",
+  },
+];

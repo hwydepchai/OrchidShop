@@ -1,0 +1,11 @@
+[data-theme="light"] {
+    --background-color: #ffffe9;
+    --foreground-color: #f7ebe2;
+    --primary-text-color: #0a0a0a;
+    --secondary-text-color: #ffffff;
+    --header: #baf8ba;
+    --header-btn: #7cf87c;
+    --toggle-bg: #f0eb9d;
+    --toggle-fg: #ffd000;
+    --special: #ff0000;
+}
